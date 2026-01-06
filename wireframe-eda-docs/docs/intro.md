@@ -1,47 +1,43 @@
 ---
 sidebar_position: 1
+id: intro
+title: Introduction
+description: Overview of WireFrame EDA features and goals.
 ---
 
-# Tutorial Intro
+# Welcome to WireFrame EDA ⚡
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**WireFrame EDA** is a lightweight, high-performance, and cross-platform Printed Circuit Board (PCB) design tool engineered for embedded software engineers and hardware enthusiasts.
+
+Unlike traditional, bloated EDA software, WireFrame focuses on **speed**, **simplicity**, and **modern UX**, taking you from schematic to Gerber files in record time.
+
+![WireFrame Interface](/img/WireFrame_inference.png)
+![WireFrame PCB](/img/WireFrame_inference_PCB.png)
+## Why WireFrame?
+
+* 🚀 **Blazing Fast:** Starts in under 2 seconds. Minimal RAM usage.
+* 🎨 **Modern UI:** Clean, intuitive interface with built-in Dark Mode.
+* 🤖 **Smart Routing:** Assisted routing and instant Schematic-to-PCB conversion.
+* 🐧 **Cross-Platform:** Native support for Linux (Ubuntu/Debian), Windows, and macOS.
+
+## Key Features
+
+### 1. Schematic Capture
+Easily design your circuits with a comprehensive library of symbols.
+* **Quick Search:** Press `Ctrl + Space` to instantly find components.
+* **Real-time ERC:** Electrical Rule Check runs as you design.
+
+### 2. PCB Layout
+Route your tracks with precision.
+* **Interactive Router:** Push-and-shove routing capabilities.
+* **3D Viewer:** Visualize your board in 3D with realistic component models.
+
+### 3. Manufacturing Ready
+* **Gerber Export:** Standard RS-274X export for any PCB fab house.
+* **BOM Generation:** One-click Bill of Materials export (CSV/Excel).
+
+---
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ready to design your first board? Check out the [Installation Guide](./installation) or jump straight into the [Quick Start Tutorial](./quick-start).
