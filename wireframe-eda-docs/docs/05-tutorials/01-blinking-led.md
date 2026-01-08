@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 id: blinking-led
-title: Project 1: Blinking LED
+title: "Project 1: Blinking LED"
 ---
 
 # Tutorial: Creating a Blinking LED Circuit
