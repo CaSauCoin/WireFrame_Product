@@ -71,7 +71,11 @@ Get the latest stable release directly from our GitHub repository.
 
     ### Step 2: Drag & Drop
     Drag the **WireFrame** icon into the **Applications** folder provided in the window.
-    Run Cmd: sudo xattr -cr /Applications/WireFrame.app
+
+    ```bash
+    # Run command to passed policy macos
+    sudo xattr -cr /Applications/WireFrame.app
+    ```
 
     ### Step 3: First Launch (Important!)
     1. Go to **Applications** folder.
