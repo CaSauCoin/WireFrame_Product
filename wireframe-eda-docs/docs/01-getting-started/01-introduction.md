@@ -20,10 +20,10 @@ import Admonition from '@theme/Admonition';
 Get the latest stable release directly from our GitHub repository.
 
 <div style={{display: 'flex', gap: '10px', marginBottom: '20px'}}>
-  <a className="button button--primary button--lg" href="https://github.com/CaSauCoin/WireFrame_Product/releases/tag/v1.0.1" target="_blank">
+  <a className="button button--primary button--lg" href="https://github.com/CaSauCoin/WireFrame_Product/tags" target="_blank">
     📥 Download Installers
   </a>
-  <a className="button button--secondary button--lg" href="https://github.com/CaSauCoin/WireFrame_Product/releases/tag/v1.0.1" target="_blank">
+  <a className="button button--secondary button--lg" href="https://github.com/CaSauCoin/WireFrame_Product/tags" target="_blank">
     📂 View All Versions
   </a>
 </div>
