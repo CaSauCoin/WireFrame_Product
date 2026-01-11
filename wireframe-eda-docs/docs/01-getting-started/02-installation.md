@@ -15,10 +15,10 @@ Unlike traditional, bloated EDA software, WireFrame focuses on **speed**, **simp
 ![WireFrame PCB](/img/WireFrame_inference_PCB.png)
 ## Why WireFrame?
 
-* 🚀 **Blazing Fast:** Starts in under 2 seconds. Minimal RAM usage.
-* 🎨 **Modern UI:** Clean, intuitive interface with built-in Dark Mode.
-* 🤖 **Smart Routing:** Assisted routing and instant Schematic-to-PCB conversion.
-* 🐧 **Cross-Platform:** Native support for Linux (Ubuntu/Debian), Windows, and macOS.
+* **Blazing Fast:** Starts in under 2 seconds. Minimal RAM usage.
+* **Modern UI:** Clean, intuitive interface with built-in Dark Mode.
+* **Smart Routing:** Assisted routing and instant Schematic-to-PCB conversion.
+* **Cross-Platform:** Native support for Linux (Ubuntu/Debian), Windows, and macOS.
 
 ## Key Features
 

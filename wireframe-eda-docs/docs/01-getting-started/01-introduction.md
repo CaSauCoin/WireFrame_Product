@@ -15,28 +15,28 @@ import Admonition from '@theme/Admonition';
 
 ---
 
-## 🚀 Download Latest Version
+## Download Latest Version
 
 Get the latest stable release directly from our GitHub repository.
 
 <div style={{display: 'flex', gap: '10px', marginBottom: '20px'}}>
   <a className="button button--primary button--lg" href="https://github.com/CaSauCoin/WireFrame_Product/tags" target="_blank">
-    📥 Download Installers
+    Download Installers
   </a>
   <a className="button button--secondary button--lg" href="https://github.com/CaSauCoin/WireFrame_Product/tags" target="_blank">
-    📂 View All Versions
+    View All Versions
   </a>
 </div>
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 <Tabs
   defaultValue="linux"
   values={[
-    {label: '🐧 Linux (Ubuntu/Debian)', value: 'linux'},
-    {label: '🍎 macOS', value: 'mac'},
+    {label: 'Linux (Ubuntu/Debian)', value: 'linux'},
+    {label: 'macOS', value: 'mac'},
   ]}>
 
   <TabItem value="linux">
@@ -71,6 +71,7 @@ Get the latest stable release directly from our GitHub repository.
 
     ### Step 2: Drag & Drop
     Drag the **WireFrame** icon into the **Applications** folder provided in the window.
+    Run Cmd: sudo xattr -cr /Applications/WireFrame.app
 
     ### Step 3: First Launch (Important!)
     1. Go to **Applications** folder.
