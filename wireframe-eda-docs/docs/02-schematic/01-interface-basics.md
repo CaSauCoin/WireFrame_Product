@@ -37,13 +37,13 @@ You can manage files directly from the **Project Explorer** panel:
 
 * **Create:** Right-click the project → New Schematic/PCB.
 <video controls width="100%">
-  <source src="/videos/Create_Schematic.mp4" type="video/mp4" />
+  <source src={useBaseUrl('/videos/Create_Schematic.mp4')} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
 * **Move:** Drag and drop to reorder (if supported).
 <video controls width="100%">
-  <source src="/videos/import_lib.mp4" type="video/mp4" />
+  <source src={useBaseUrl('/videos/import_lib.mp4')} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 ---
@@ -60,7 +60,7 @@ Detaching tabs into separate windows via drag-and-drop is not supported yet. Use
 :::
 
 <video controls width="100%">
-  <source src="/videos/MDI_SW.mp4" type="video/mp4" />
+  <source src={useBaseUrl('/videos/MDI_SW.mp4')} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
@@ -98,7 +98,7 @@ Each sheet includes a standard title block. Fill in engineering metadata here fo
 * *Date*
 
 <video controls width="100%">
-  <source src="/videos/Page_Setup.mp4" type="video/mp4" />
+  <source src={useBaseUrl('/videos/Page_Setup.mp4')} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 

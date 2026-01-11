@@ -23,7 +23,7 @@ When a wire crosses and connects to another existing wire (T-junction), WireFram
 :::
 
 <video controls width="100%">
-  <source src="/videos/Wires.mp4" type="video/mp4" />
+  <source src={useBaseUrl('/videos/Wires.mp4')} type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 ---
