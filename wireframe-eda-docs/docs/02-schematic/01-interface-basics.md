@@ -3,6 +3,7 @@ sidebar_position: 1
 title: Interface & Project Management
 description: Get familiar with the workspace, MDI tab system, and project file management.
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Interface & Project Management
 

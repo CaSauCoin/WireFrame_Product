@@ -4,6 +4,8 @@ title: Drawing & Wiring
 description: Master the tools for connecting components, drawing shapes, and modifying object properties.
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 # Drawing & Wiring Tools
 
 Once your components are placed on the canvas, the next step is to connect them electrically and arrange them logically. This section covers the essential tools for wiring, graphic drawing, and object manipulation.
