@@ -1,0 +1,47 @@
+name: Deploy Docusaurus to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    # Chỉ chạy deploy khi có thay đổi trong thư mục docs
+    # để tránh build lại khi bạn chỉ sửa code C++ (imgui, v.v.)
+    paths:
+      - 'wireframe-eda-docs/**' 
+      - '.github/workflows/deploy.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          # Lưu ý: cache npm cần chỉ định đường dẫn file package-lock.json trong thư mục con
+          cache: 'npm'
+          cache-dependency-path: wireframe-eda-docs/package-lock.json
+
+      - name: Install dependencies
+        # Di chuyển vào thư mục con trước khi cài đặt
+        working-directory: ./wireframe-eda-docs
+        run: npm ci
+
+      - name: Build website
+        # Di chuyển vào thư mục con trước khi build
+        working-directory: ./wireframe-eda-docs
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Chỉ định thư mục build nằm trong thư mục con
+          publish_dir: ./wireframe-eda-docs/build
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
