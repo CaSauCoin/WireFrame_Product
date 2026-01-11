@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           # Lưu ý: cache npm cần chỉ định đường dẫn file package-lock.json trong thư mục con
           cache: 'npm'
           cache-dependency-path: wireframe-eda-docs/package-lock.json
