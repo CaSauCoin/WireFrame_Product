@@ -40,8 +40,10 @@ Efficient editing starts with selecting exactly what you want. WireFrame support
 | **Box Select** | Click & Drag | Click on empty space and drag to create a selection rectangle. |
 | **Add to Selection** | `Ctrl` + Click | Hold `Ctrl` while clicking to add multiple items to the current selection. |
 
-> **[PLACEHOLDER GIF: selection-modes.gif]**
-> *Description: Show clicking a single resistor (it highlights). Then show dragging a large box around the whole circuit to select everything.*
+<video controls width="100%">
+  <source src={useBaseUrl('/videos/Selection.mp4')} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -59,8 +61,10 @@ To access these tools, look for the **Graphics** dropdown on the toolbar or use 
 Use graphic rectangles with dashed lines to group related circuit blocks (e.g., Power, MCU, Sensors) to make your schematic readable for other engineers.
 :::
 
-> **[PLACEHOLDER IMAGE: graphics-example.png]**
-> *Description: Screenshot of a schematic section where a Dashed Rectangle surrounds a power circuit, with a text label saying "5V Regulator".*
+<video controls width="100%">
+  <source src={useBaseUrl('/videos/Graphics.mp4')} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ---
 
@@ -72,12 +76,19 @@ Modify your design layout using standard transformation tools.
 * **Move:** Select an object and drag it with the mouse, or press `M`. Connected wires will stretch to maintain connectivity (Rubber-banding).
 * **Rotate:** While an object is selected (or while moving it), press `Space` or `R` to rotate it 90 degrees clockwise.
 
+<video controls width="100%">
+  <source src={useBaseUrl('/videos/Rotate.mp4')} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
 ### Copy & Delete
 * **Copy/Paste:** Standard `Ctrl + C` and `Ctrl + V` work for single items or entire circuit blocks.
 * **Delete:** Press `Delete` or `Backspace` to remove selected items.
 
-> **[PLACEHOLDER GIF: move-rotate.gif]**
-> *Description: Select a component. Drag it around (wires stretching). While dragging, press Spacebar to rotate it.*
+<video controls width="100%">
+  <source src={useBaseUrl('/videos/Clipboard.mp4')} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ---
 
