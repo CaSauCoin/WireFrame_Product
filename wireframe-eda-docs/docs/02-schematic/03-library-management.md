@@ -35,7 +35,10 @@ For ICs or components that don't have an existing library, the built-in **Lib Ge
 2.  **Package Selection:** Choose the package style (Dual-Inline, Quad-Flat, Matrix, etc.).
 3.  **Generate:** WireFrame automatically calculates the body dimensions and arranges the pins optimally.
 
-<!-- ![Smart Symbol Generator Interface](/img/docs/symbol-generator-ui.png) -->
+<video controls width="100%">
+  <source src={useBaseUrl('/videos/New_Symbol.mp4')} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 ## 3. Dynamic Attributes System
 
@@ -44,9 +47,9 @@ WireFrame replaces rigid static text with a flexible **Dynamic Attributes** syst
 * **Text-to-Attribute:** Automatically converts placeholder text (e.g., `>NAME`, `>VALUE`) into functional, editable attributes.
 * **Global Sync:** Modifying a component's value in the Properties panel instantly updates all related text on the schematic canvas.
 
-<video controls autoPlay loop muted width="100%">
+<!-- <video controls autoPlay loop muted width="100%">
   <source src="/img/docs/dynamic-attributes.mp4" type="video/mp4"/>
-</video>
+</video> -->
 
 ## 4. Centralized Library Manager
 
@@ -56,4 +59,7 @@ Keep your workspace organized and efficient with the **Library Manager**.
 * **Categorization:** Libraries are organized by logic groups (MCU, Power, Connectors, etc.).
 * **Fast Search:** Locate components instantly by name, description, or tags.
 
-<!-- ![Library Manager Overview](/img/docs/library-manager.png) -->
+<video controls width="100%">
+  <source src={useBaseUrl('/videos/Search.mp4')} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>

@@ -105,5 +105,5 @@ Every object in WireFrame has attributes you can edit.
 * **Designator:** Change `R?` to `R1`.
 * **Attributes:** Toggle visibility of specific text fields (e.g., hide the Pin Numbers if the symbol is too cluttered).
 
-> **[PLACEHOLDER IMAGE: properties-panel-edit.png]**
-> *Description: Split image. Left side: The resistor on canvas showing "1k". Right side: The Properties Panel with "Value: 10k" being typed in.*
+<!-- > **[PLACEHOLDER IMAGE: properties-panel-edit.png]**
+> *Description: Split image. Left side: The resistor on canvas showing "1k". Right side: The Properties Panel with "Value: 10k" being typed in.* -->
